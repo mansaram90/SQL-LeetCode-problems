@@ -1,50 +1,20 @@
 # SQL-LeetCode-problems
 SQL LeetCode problems with Medium and high difficulties
-Leet code problem# 570: Managers with at leat 5 reports
-Table: Employee
-
-+-------------+---------+
-| Column Name | Type    |
-+-------------+---------+
-| id          | int     |
-| name        | varchar |
-| department  | varchar |
-| managerId   | int     |
-+-------------+---------+
-id is the primary key (column with unique values) for this table.
-Each row of this table indicates the name of an employee, their department, and the id of their manager.
-If managerId is null, then the employee does not have a manager.
-No employee will be the manager of themself.
- 
-
-Write a solution to find managers with at least five direct reports.
-
-Return the result table in any order.
-
-The result format is in the following example.
-
-Example 1:
-
-Input: 
-Employee table:
-+-----+-------+------------+-----------+
-| id  | name  | department | managerId |
-+-----+-------+------------+-----------+
-| 101 | John  | A          | null      |
-| 102 | Dan   | A          | 101       |
-| 103 | James | A          | 101       |
-| 104 | Amy   | A          | 101       |
-| 105 | Anne  | A          | 101       |
-| 106 | Ron   | B          | 101       |
-+-----+-------+------------+-----------+
-Output: 
-+------+
-| name |
-+------+
-| John |
-+------+
-
- 
-The problem poses and interesting challenge in the sense that the employee table is the only data source. 
-In this case a self join is required so that SQL can look at another table to get the manager info.
-
+570: Managers with at leat 5 reports
+1934: Confrimation rate
+176: Second Highest Salary
+185. Department Top Three Salaries
+585. Investments in 2016
+602. Friend Requests II: Who Has the Most Friends
+1321. Restaurant Growth
+1341. Movie Rating
+626. Exchange Seats
+1907. Count Salary Categories
+1204. Last Person to Fit in the Bus
+1164. Product Price at a Given Date
+180. Consecutive Numbers
+1045. Customers Who Bought All Products
+1070. Product Sales Analysis III
+550. Game Play Analysis IV
+1174. Immediate Food Delivery II
+1193. Monthly Transactions I
