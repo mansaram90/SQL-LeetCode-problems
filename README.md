@@ -4,10 +4,10 @@ This repository contains solutions to Medium and Hard level SQL problems from Le
 .
 Each solution is written in SQL (MS SQL Server / standard SQL) and includes the problem number, title, and the query.
 
-The goal of this repo is to provide clean, well-structured, and working SQL queries for practicing advanced SQL concepts such as window functions, CTEs, ranking, aggregation, and joins.
+The goal of this repo is to provide clean, well-structured, and working SQL queries for practicing advanced SQL concepts such as window functions, CTEs, ranking, aggregation, and joins. (Solutions are privded in )
 
-📂 Problem List
-#	Problem	Difficulty	Solution
+
+#	Problem List 
 570	Managers with at least 5 reports	Medium
 
 1934	Confirmation rate	Medium	
