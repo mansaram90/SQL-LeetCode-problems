@@ -1,4 +1,4 @@
-*******************************Leet Code Medium Problem*******************************************
+*******************************Leet Code Medium and Hard Problems*******************************************
 
 570: Managers with at least 5 reports 
 Solution: 
@@ -243,4 +243,5 @@ sum(amount) as trans_total_amount,
 sum(case when state = 'approved' then amount else 0 end) as approved_total_amount
 from Transactions
 group by format(trans_date, 'yyyy-MM'), country;
+
 
